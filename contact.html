@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add("js");</script>
+<title>Contact Us | Corning IT Solution</title>
+<meta name="description" content="Get in touch with Corning IT Solution. Tell us about your website, app, or custom software project and we'll respond within one business day.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.svg" alt="Corning IT Solution logo">
+      <span class="brand-text-wrap">Corning IT Solution</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Start a Project</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary btn-block">Start a Project</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Get In Touch</span>
+        <h1>Let's talk about your project.</h1>
+        <p>Fill out the form and our team will get back to you within one business day — or reach us directly at the details below.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:20px;">
+    <div class="container contact-grid">
+
+      <!-- Contact info -->
+      <div class="reveal">
+        <div class="card contact-info-card">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 7l9 6 9-6M3 7v10a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2z"/></svg></div>
+          <h4>Email Us</h4>
+          <p>For general inquiries and new project requests</p>
+          <a href="mailto:contactus@citsolution.in">contactus@citsolution.in</a>
+        </div>
+        <div class="card contact-info-card">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+          <h4>Response Time</h4>
+          <p>We read every message ourselves and reply within one business day</p>
+          <span style="color:var(--text-muted); font-size:0.9rem;">Mon–Fri, 10:00 AM – 7:00 PM IST</span>
+        </div>
+        <div class="card contact-info-card">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h4>Based In</h4>
+          <p>Remote-first team, HQ in</p>
+          <span style="color:var(--text-muted); font-size:0.9rem;">Pune, Maharashtra, India</span>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="reveal">
+        <div class="card form-card">
+          <h3 style="margin-bottom:6px;">Tell us about your project</h3>
+          <p style="margin-bottom:26px; font-size:0.9rem;">The more detail you share, the faster we can scope it.</p>
+
+          <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 12345 67890">
+              </div>
+              <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option value="Website Development">Website Development</option>
+                  <option value="Mobile App Development">Mobile App Development</option>
+                  <option value="Custom Software">Custom Software</option>
+                  <option value="UI/UX Design">UI/UX Design</option>
+                  <option value="Cloud & DevOps">Cloud &amp; DevOps</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="budget">Estimated Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select a range</option>
+                <option value="Under ₹1,00,000">Under ₹1,00,000</option>
+                <option value="₹1,00,000 – ₹5,00,000">₹1,00,000 – ₹5,00,000</option>
+                <option value="₹5,00,000 – ₹15,00,000">₹5,00,000 – ₹15,00,000</option>
+                <option value="₹15,00,000+">₹15,00,000+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details *</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're building, your timeline, and any specific requirements..." required></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New project inquiry — citsolution.in">
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Send Message</button>
+            <p class="form-note">By submitting, you agree to be contacted about your inquiry. We don't share your details with third parties.</p>
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="map-embed reveal">
+        <iframe src="https://www.google.com/maps?q=Pune,Maharashtra,India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Corning IT Solution — Pune, Maharashtra, India"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact FAQ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Before You Reach Out</span>
+        <h2>A few quick answers.</h2>
+      </div>
+      <div style="max-width:720px;margin:0 auto;">
+        <div class="faq-item reveal open">
+          <div class="faq-q"><span>What happens after I submit the form?</span><span class="plus">+</span></div>
+          <div class="faq-a"><p>You'll get an automatic confirmation, and a member of our team will personally review your project and reply within one business day with next steps or clarifying questions.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q"><span>What should I include in my message?</span><span class="plus">+</span></div>
+          <div class="faq-a"><p>A short description of what you're building, your rough timeline, and your budget range is enough for us to give you a meaningful first response — you don't need a full spec ready.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q"><span>Do you work with clients outside India?</span><span class="plus">+</span></div>
+          <div class="faq-a"><p>Yes. We work with clients across time zones and run projects fully remotely, with scheduled calls to fit your working hours.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q"><span>Is there any cost to the initial consultation?</span><span class="plus">+</span></div>
+          <div class="faq-a"><p>No. The first call and the resulting scope/estimate are free — you only engage us once you're happy with the proposal.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/logo.svg" alt="Corning IT Solution logo">
+          <span class="brand-text-wrap">Corning IT Solution</span>
+        </a>
+        <p>Building websites, mobile apps, and custom software for businesses since 2019.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="services.html">Web Development</a>
+        <a href="services.html">Mobile Apps</a>
+        <a href="services.html">Custom Software &amp; ERP</a>
+        <a href="services.html">Cloud &amp; DevOps</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:contactus@citsolution.in">contactus@citsolution.in</a>
+        <span>Pune, Maharashtra, India</span>
+        <a href="contact.html">Send a message →</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Corning IT Solution LLP. All rights reserved.</span>
+      <span class="legal-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
