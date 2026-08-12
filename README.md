@@ -61,6 +61,6 @@ Everything is production-ready copy, but a few things are placeholders you shoul
 - Team titles in `about.html` (currently role-only — add real names/photos if you want).
 - Testimonials on `index.html` (currently representative sample quotes — swap in real client quotes as you collect them).
 - Portfolio projects in `portfolio.html` (currently illustrative case studies — replace with real project names/screenshots as available).
-- Office location in `contact.html` / footers is city-level only (Pune, Maharashtra) with no phone number or street address published — add either if you want them shown.
+- Office address is set to 91Springboard, Creaticity, Yerawada, Pune, Maharashtra 411006 across footers, the Contact page, and the embedded map — update if this changes. No phone number is published.
 - `privacy.html` and `terms.html` are solid boilerplate — have them reviewed by a lawyer before relying on them, especially for India's DPDP Act compliance.
 # corning-site
